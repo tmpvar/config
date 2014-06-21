@@ -1,3 +1,4 @@
+G92 E0 ; set extruder to 0 to avoid unexpected retraction at beginning
 M109 T0 S210.000000 ; hotend to 210c, block until preheated
 G28 X0 Y0 ; home X and Y
 G28 Z0 ; home Z
